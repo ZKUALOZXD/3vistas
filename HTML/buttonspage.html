@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="/CSS/buttons.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <h1 class="title">Bienvenidos</h1>
+        <p>Pinta las letras y el color</p>
+      </div>
+    </header>
+    <div class="nav-bar">
+      <a href="/HTML/buttonspage.html"> <button>Ir a botones</button></a>
+      <a href="/HTML/calculadora.html"> <button>Ir a calculadora</button></a>
+      <a href="/HTML/index.html"> <button>Ir a sliders</button></a>
+    </div>
+
+    <div class="container">
+      <div id="container-text">
+        <h2>Cambiar Color del Texto</h2>
+        <button id="azul" onclick="cambiarColorTexto('blue')">Azul</button>
+        <button id="verde" onclick="cambiarColorTexto('green')">Verde</button>
+        <button id="rojo" onclick="cambiarColorTexto('red')">Rojo</button>
+        <button id="morado" onclick="cambiarColorTexto('purple')">
+          Morado
+        </button>
+        <button id="amarillo" onclick="cambiarColorTexto('yellow')">
+          Amarillo
+        </button>
+        <button id="rosa" onclick="cambiarColorTexto('pink')">Rosa</button>
+      </div>
+
+      <div id="container-bg">
+        <h2>Cambiar Color de Fondo</h2>
+        <button id="azul" onclick="cambiarColorFondo('blue')">Azul</button>
+        <button id="verde" onclick="cambiarColorFondo('green')">Verde</button>
+        <button id="rojo" onclick="cambiarColorFondo('red')">Rojo</button>
+        <button id="morado" onclick="cambiarColorFondo('purple')">
+          Morado
+        </button>
+        <button id="amarillo" onclick="cambiarColorFondo('yellow')">
+          Amarillo
+        </button>
+        <button id="rosa" onclick="cambiarColorFondo('pink')">Rosa</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="/JS/buttons.js"></script>

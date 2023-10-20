@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="/CSS/buttons.css" />
+    <link rel="stylesheet" href="/CSS/calculator.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Bienvenido a los botones</h1>
+    </header>
+    <div class="nav-bar">
+      <a href="/HTML/buttonspage.html"> <button>Ir a botones</button></a>
+      <a href="/HTML/calculadora.html">
+        <button>Ir a calculadora</button></a
+      >
+      <a href="/HTML/index.html"> <button>Ir a sliders</button></a>
+    </div>
+
+    <div class="content-calc">
+      <input id="num1" type="number" placeholder="Número 1">
+        <input id="num2" type="number" placeholder="Número 2">
+        <br>
+        <button class="calc-button" onclick="calculate('add')">Suma</button>
+        <button class="calc-button" onclick="calculate('subtract')">Resta</button>
+        <button class="calc-button" onclick="calculate('multiply')">Multiplicación</button>
+        <button class="calc-button" onclick="calculate('divide')">División</button>
+
+        <p id="result">Resultado: </p>
+    </div>
+    </div>
+  </body>
+</html>
+
+<script src="/JS/calculadora.js"></script>
+

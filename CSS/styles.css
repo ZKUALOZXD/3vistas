@@ -1,0 +1,45 @@
+* {
+  background-color: rgb(133, 179, 228);
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-content {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-content .title {
+  margin-bottom: 0;
+}
+
+.nav-bar {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-bar a {
+  margin: 24px;
+}
+
+.nav-bar a button {
+  background-color: aliceblue;
+  border-radius: 8px;
+}
+
+input {
+  background-color: aliceblue;
+  border-radius: 8px;
+  height: 32px;
+}
+
+.calc-button {
+  background-color: aliceblue;
+  border-radius: 8px;
+}
